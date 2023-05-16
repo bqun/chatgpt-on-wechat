@@ -77,11 +77,11 @@ available_setting = {
     # wechaty的配置
     "wechaty_puppet_service_token": "",  # wechaty的token
     # wechatmp的配置
-    "wechatmp_token": "",  # 微信公众平台的Token
-    "wechatmp_port": 8080,  # 微信公众平台的端口,需要端口转发到80或443
-    "wechatmp_app_id": "",  # 微信公众平台的appID
-    "wechatmp_app_secret": "",  # 微信公众平台的appsecret
-    "wechatmp_aes_key": "",  # 微信公众平台的EncodingAESKey，加密模式需要
+    "wechatmp_token": "VvqSuOgV",  # 微信公众平台的Token
+    "wechatmp_port": 80,  # 微信公众平台的端口,需要端口转发到80或443
+    "wechatmp_app_id": "wx065b316f93153de9",  # 微信公众平台的appID
+    "wechatmp_app_secret": "f596e3f306106ed6cdab8267f4719ab3",  # 微信公众平台的appsecret
+    "wechatmp_aes_key": "jXyk4Fb6GdN9grb8CHqw2uId0rVNsWEQ4GwpCc0vcMy",  # 微信公众平台的EncodingAESKey，加密模式需要
     # wechatcom的通用配置
     "wechatcom_corp_id": "",  # 企业微信公司的corpID
     # wechatcomapp的配置
@@ -93,7 +93,7 @@ available_setting = {
     # chatgpt指令自定义触发词
     "clear_memory_commands": ["#清除记忆"],  # 重置会话指令，必须以#开头
     # channel配置
-    "channel_type": "wx",  # 通道类型，支持：{wx,wxy,terminal,wechatmp,wechatmp_service,wechatcom_app}
+    "channel_type": "wechatmp",  # 通道类型，支持：{wx,wxy,terminal,wechatmp,wechatmp_service,wechatcom_app}
     "subscribe_msg": "",  # 订阅消息, 支持: wechatmp, wechatmp_service, wechatcom_app
     "debug": False,  # 是否开启debug模式，开启后会打印更多日志
     "appdata_dir": "",  # 数据目录
